@@ -1,0 +1,52 @@
+
+.main-container{
+    width: 90%;
+    display: grid;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.text-container{
+    display: inline-block;
+    width: 50%;
+}
+
+.header{
+    width: 100%;
+    display:block;
+}
+
+.subheader{
+    margin-top: 24px;
+    width: 100%;
+    display: block;
+}
+
+.caption{
+    margin-top: 24px;
+    width: 100%;
+    display: block;
+}
+
+.primary-button{
+    margin-top: 16px;
+    padding: 10px 16px;
+    height: 48px;
+    background-color: #000000;
+}
+
+.hero-image{
+    display: inline-block;
+    width: 50%;
+}
+
+.hero-image img{
+    width: 80%;
+    height: auto;
+}
