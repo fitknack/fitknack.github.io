@@ -33,6 +33,7 @@ html{
     bottom: 50%;
     transform: translate(50%,40%);
     position: absolute;
+    overflow: hidden;
 }
 
 .navbar{
@@ -71,22 +72,29 @@ html{
     margin-top: 24px;
     width: 100%;
     display: block;
-    line-height: 1.38;
+    line-height: 1.57;
     font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    line-height: 28px;
+    color: white;
+    font-weight: 500;
+    display: block;
+     padding: 10px 16px;
+    height: 28px;
 }
 
 .primary-button{
     margin-top: 16px;
-    padding: 10px 16px;
-    height: 28px;
+   
     background-color: #00B570;
     max-width: 128px;
     font-size: 15px;
     border-radius: 10px;
     text-align: center;
-    line-height: 28px;
-    color: white;
-    font-weight: 500;
+    text-decoration: none;
 }
 
 .hero-image{
